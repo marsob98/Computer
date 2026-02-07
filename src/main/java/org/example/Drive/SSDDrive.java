@@ -10,7 +10,7 @@ public class SSDDrive implements Drive {
     Map<String, File> folder = new HashMap<>();
     @Override
     public void addFile(File file) {
-        folder.put(file.toString(), file);
+        folder.put(file.getName(), file);
     }
 
     @Override
