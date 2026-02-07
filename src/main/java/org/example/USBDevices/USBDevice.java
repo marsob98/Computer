@@ -1,0 +1,8 @@
+package org.example.USBDevices;
+
+public interface USBDevice {
+    boolean connect();
+    boolean disconnect();
+    String getName();
+
+}
